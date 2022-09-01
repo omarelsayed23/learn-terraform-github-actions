@@ -28,7 +28,10 @@ provider "aws" {
 }
 
 resource "random_pet" "sg" {}
-
+/*
+  Data sources
+  Applied
+*/
 data "aws_ami" "ubuntu" {
   most_recent = true
 
