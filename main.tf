@@ -1,3 +1,6 @@
+/*
+  TF script that wil run then github actions script is triggered  
+*/
 terraform {
   required_providers {
     aws = {
