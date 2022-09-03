@@ -15,7 +15,7 @@ terraform {
   required_version = ">= 1.1.0"
 
   cloud {
-    organization = "juno-node"
+    organization = "omarosman23"
 
     workspaces {
       name = "gh-actions-demo"
